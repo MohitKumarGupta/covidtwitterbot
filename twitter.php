@@ -2,10 +2,10 @@
 
     date_default_timezone_set('Asia/Kolkata'); 
 
-    $ApiKey = "4x5doZFKqfq1TItB4mCDF73Os";
-    $ApiSecretKey = "AsTMSxHa0PqVHxrd4MSMSmPpOg9qnCEPrawcVLX0VSvCodJGcH";
-    $AccessToken = "1283360885868642304-OHOXDIBBqfiTXeixE0iUe9HLHWQQip";
-    $AccessTokenSecret = "UuIpPy6l0aRON2psjeDcvyUfWowqiRs0cCicZtNubRkBl";
+    $ApiKey = <<ApiKey>>;
+    $ApiSecretKey = " <<ApiSecretKey>>";
+    $AccessToken = " <<AccessToken>>";
+    $AccessTokenSecret = " <<AccessTokenSecret>>";
 	$url = "https://api.covid19india.org/v4/data.json";
  
 	$client = curl_init($url);
