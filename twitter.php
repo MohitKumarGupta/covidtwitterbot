@@ -3,9 +3,9 @@
     date_default_timezone_set('Asia/Kolkata'); 
 
     $ApiKey = <<ApiKey>>;
-    $ApiSecretKey = " <<ApiSecretKey>>";
-    $AccessToken = " <<AccessToken>>";
-    $AccessTokenSecret = " <<AccessTokenSecret>>";
+    $ApiSecretKey = <<ApiSecretKey>>;
+    $AccessToken = <<AccessToken>>;
+    $AccessTokenSecret = <<AccessTokenSecret>>;
 	$url = "https://api.covid19india.org/v4/data.json";
  
 	$client = curl_init($url);
